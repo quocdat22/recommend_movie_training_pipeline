@@ -12,10 +12,10 @@ jobs:
   update-embeddings:
     runs-on: ubuntu-latest
     
-    # Chỉ định thư mục làm việc là movie-model-training
+    # Chỉ định thư mục làm việc là thư mục gốc của repo
     defaults:
       run:
-        working-directory: ./movie-model-training
+        working-directory: ./
 
     steps:
       - name: Checkout repository code

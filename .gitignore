@@ -1,2 +1,6 @@
 .env
 venv/
+mlruns/
+models/
+src/mlruns/
+src/models/
