@@ -46,6 +46,7 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           # Chỉ commit các thư mục mlruns và models để tránh các thay đổi ngoài ý muốn
-          git add mlruns models
+          # Sử dụng -f để buộc thêm các tệp bị bỏ qua bởi .gitignore
+          git add -f mlruns models
           git commit -m "MLflow: Update artifacts from scheduled run" || echo "No changes to commit"
           git push 
