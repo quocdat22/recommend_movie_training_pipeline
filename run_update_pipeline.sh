@@ -33,8 +33,10 @@ fi
 echo "3. Running the training script to process new movies..."
 python train_new.py
 
-# Deactivate the virtual environment
-echo "4. Deactivating virtual environment..."
-deactivate
+# Deactivate the virtual environment only if it was activated
+if [ -d "${SCRIPT_DIR}/venv" ]; then
+    echo "4. Deactivating virtual environment..."
+    deactivate
+fi
 
 echo "--- Pipeline Finished Successfully ---" 
