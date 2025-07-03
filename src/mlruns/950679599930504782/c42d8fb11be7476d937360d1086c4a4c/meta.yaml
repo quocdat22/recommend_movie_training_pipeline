@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/src/mlruns/950679599930504782/c42d8fb11be7476d937360d1086c4a4c/artifacts
+end_time: 1751457799250
+entry_point_name: ''
+experiment_id: '950679599930504782'
+lifecycle_stage: active
+run_id: c42d8fb11be7476d937360d1086c4a4c
+run_name: rare-mare-947
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751457798465
+status: 4
+tags: []
+user_id: hoang

@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/mlruns/185842000086697122/42050b9d46b64990ba99ae16ff428597/artifacts
+end_time: 1751538406521
+entry_point_name: ''
+experiment_id: '185842000086697122'
+lifecycle_stage: active
+run_id: 42050b9d46b64990ba99ae16ff428597
+run_name: adorable-elk-923
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751538400754
+status: 3
+tags: []
+user_id: hoang

@@ -1,0 +1,27 @@
+# Configuration for the model training process
+
+data:
+  supabase_table: "movies"
+
+# Parameters for feature engineering
+features:
+  # Weights for combining different text fields
+  # These are currently used in feature_engineering.py but could be removed if not needed.
+  overview_weight: 1.0
+  keywords_weight: 1.5
+  cast_weight: 1.2
+  genres_weight: 1.5
+
+# Parameters for the recommendation model
+models:
+  # Sentence Transformer model
+  transformer:
+    name: "sentence-transformers/all-MiniLM-L6-v2"
+    # The 'enable' and 'cache_embeddings' keys are no longer used by the training script.
+
+# Output paths for locally saved model artifacts
+artifacts:
+  output_dir: "models"
+  # movie_list_path is no longer saved as an artifact.
+  # embeddings_path is now in Supabase.
+  # faiss_index_path is no longer used.

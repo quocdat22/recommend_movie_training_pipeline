@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/mlruns/745585333831332059/025997a344924459b24d1226765e2797/artifacts
+end_time: 1751472010216
+entry_point_name: ''
+experiment_id: '745585333831332059'
+lifecycle_stage: active
+run_id: 025997a344924459b24d1226765e2797
+run_name: angry-quail-454
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751471949440
+status: 3
+tags: []
+user_id: hoang

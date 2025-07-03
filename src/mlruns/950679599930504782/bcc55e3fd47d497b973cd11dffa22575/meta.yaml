@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/src/mlruns/950679599930504782/bcc55e3fd47d497b973cd11dffa22575/artifacts
+end_time: 1751459056341
+entry_point_name: ''
+experiment_id: '950679599930504782'
+lifecycle_stage: active
+run_id: bcc55e3fd47d497b973cd11dffa22575
+run_name: casual-pug-171
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751458992114
+status: 3
+tags: []
+user_id: hoang

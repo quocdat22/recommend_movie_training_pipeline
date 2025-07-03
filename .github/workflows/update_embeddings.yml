@@ -1,0 +1,51 @@
+name: Update Movie Embeddings
+
+on:
+  # Lên lịch chạy vào lúc 00:00 UTC mỗi ngày (khoảng 7:00 sáng Việt Nam)
+  schedule:
+    - cron: "0 0 * * *"
+  
+  # Cho phép chạy thủ công từ tab Actions trên GitHub
+  workflow_dispatch:
+
+jobs:
+  update-embeddings:
+    runs-on: ubuntu-latest
+    
+    # Chỉ định thư mục làm việc là movie-model-training
+    defaults:
+      run:
+        working-directory: ./movie-model-training
+
+    steps:
+      - name: Checkout repository code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10' # Hoặc phiên bản Python bạn đang dùng
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      
+      - name: Create .env file from GitHub Secrets
+        run: |
+          echo "SUPABASE_URL=${{ secrets.SUPABASE_URL }}" >> .env
+          echo "SUPABASE_KEY=${{ secrets.SUPABASE_KEY }}" >> .env
+        
+      - name: Run the update pipeline script
+        run: |
+          chmod +x run_update_pipeline.sh
+          ./run_update_pipeline.sh
+
+      - name: Commit and push MLflow & Model changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # Chỉ commit các thư mục mlruns và models để tránh các thay đổi ngoài ý muốn
+          git add mlruns models
+          git commit -m "MLflow: Update artifacts from scheduled run" || echo "No changes to commit"
+          git push 

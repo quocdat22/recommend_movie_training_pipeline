@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/src/mlruns/950679599930504782/36091304a85d4e83a4eecd029921f15a/artifacts
+end_time: 1751457581081
+entry_point_name: ''
+experiment_id: '950679599930504782'
+lifecycle_stage: active
+run_id: 36091304a85d4e83a4eecd029921f15a
+run_name: gregarious-hare-633
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751457580136
+status: 4
+tags: []
+user_id: hoang

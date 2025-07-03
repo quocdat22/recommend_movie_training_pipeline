@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/mlruns/745585333831332059/c47642cc6d7d4d2f8f34a1116cc882f7/artifacts
+end_time: 1751536952396
+entry_point_name: ''
+experiment_id: '745585333831332059'
+lifecycle_stage: active
+run_id: c47642cc6d7d4d2f8f34a1116cc882f7
+run_name: efficient-grub-29
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751536891925
+status: 3
+tags: []
+user_id: hoang

@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/src/mlruns/950679599930504782/aefd2d2375644790aa2f447171993773/artifacts
+end_time: 1751460072146
+entry_point_name: ''
+experiment_id: '950679599930504782'
+lifecycle_stage: active
+run_id: aefd2d2375644790aa2f447171993773
+run_name: worried-kit-779
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751460013546
+status: 3
+tags: []
+user_id: hoang

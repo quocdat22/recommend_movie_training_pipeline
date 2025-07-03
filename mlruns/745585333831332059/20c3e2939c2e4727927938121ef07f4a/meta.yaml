@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/mlruns/745585333831332059/20c3e2939c2e4727927938121ef07f4a/artifacts
+end_time: 1751536764577
+entry_point_name: ''
+experiment_id: '745585333831332059'
+lifecycle_stage: active
+run_id: 20c3e2939c2e4727927938121ef07f4a
+run_name: bemused-stag-655
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751536698725
+status: 3
+tags: []
+user_id: hoang
