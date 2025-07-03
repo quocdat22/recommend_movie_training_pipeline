@@ -1,6 +1,0 @@
-artifact_location: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/mlruns/185842000086697122
-creation_time: 1751538400419
-experiment_id: '185842000086697122'
-last_update_time: 1751538400419
-lifecycle_stage: active
-name: Movie Embedding Generation - New Only
