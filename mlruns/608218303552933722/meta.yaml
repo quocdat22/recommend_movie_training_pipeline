@@ -1,0 +1,6 @@
+artifact_location: file:///home/runner/work/recommend_movie_training_pipeline/recommend_movie_training_pipeline/mlruns/608218303552933722
+creation_time: 1751548946141
+experiment_id: '608218303552933722'
+last_update_time: 1751548946141
+lifecycle_stage: active
+name: Movie Embedding Generation - New Only

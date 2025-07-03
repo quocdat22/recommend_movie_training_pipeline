@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/recommend_movie_training_pipeline/recommend_movie_training_pipeline/mlruns/608218303552933722/af380315afec438e8a16097e8a72aabf/artifacts
+end_time: 1751548951610
+entry_point_name: ''
+experiment_id: '608218303552933722'
+lifecycle_stage: active
+run_id: af380315afec438e8a16097e8a72aabf
+run_name: wise-wasp-135
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751548946617
+status: 3
+tags: []
+user_id: runner
