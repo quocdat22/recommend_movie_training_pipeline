@@ -1,0 +1,14 @@
+artifact_uri: file:///home/hoang/Projects/web/movie/mlops-movie-recommendation/movie-model-training/mlruns/185842000086697122/2d025f64d2934fa3b97f6b90302bdb28/artifacts
+end_time: 1751545079867
+entry_point_name: ''
+experiment_id: '185842000086697122'
+lifecycle_stage: active
+run_id: 2d025f64d2934fa3b97f6b90302bdb28
+run_name: traveling-snake-412
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751545078835
+status: 4
+tags: []
+user_id: runner
