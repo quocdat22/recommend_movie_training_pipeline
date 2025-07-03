@@ -11,6 +11,8 @@ on:
 jobs:
   update-embeddings:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Cấp quyền ghi vào nội dung của kho mã nguồn
     
     # Chỉ định thư mục làm việc là thư mục gốc của repo
     defaults:
