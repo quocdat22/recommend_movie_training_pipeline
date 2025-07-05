@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/recommend_movie_training_pipeline/recommend_movie_training_pipeline/mlruns/608218303552933722/678fa214a88648418ebcf312f3b0d200/artifacts
+end_time: 1751678663056
+entry_point_name: ''
+experiment_id: '608218303552933722'
+lifecycle_stage: active
+run_id: 678fa214a88648418ebcf312f3b0d200
+run_name: blushing-kit-375
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751678661203
+status: 4
+tags: []
+user_id: runner
