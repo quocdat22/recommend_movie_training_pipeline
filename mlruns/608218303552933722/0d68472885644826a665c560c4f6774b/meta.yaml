@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/recommend_movie_training_pipeline/recommend_movie_training_pipeline/mlruns/608218303552933722/0d68472885644826a665c560c4f6774b/artifacts
+end_time: 1751766200116
+entry_point_name: ''
+experiment_id: '608218303552933722'
+lifecycle_stage: active
+run_id: 0d68472885644826a665c560c4f6774b
+run_name: colorful-bear-900
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751766195262
+status: 3
+tags: []
+user_id: runner
