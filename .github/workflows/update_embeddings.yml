@@ -1,11 +1,8 @@
 name: Update Movie Embeddings
 
 on:
-  # Lên lịch chạy vào lúc 00:00 UTC mỗi ngày (khoảng 7:00 sáng Việt Nam)
-  schedule:
-    - cron: "0 0 * * *"
-  
-  # Cho phép chạy thủ công từ tab Actions trên GitHub
+  # Chỉ cho phép chạy thủ công từ tab Actions trên GitHub
+
   workflow_dispatch:
 
 jobs:
