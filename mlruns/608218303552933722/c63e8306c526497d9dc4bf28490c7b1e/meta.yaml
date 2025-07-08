@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/recommend_movie_training_pipeline/recommend_movie_training_pipeline/mlruns/608218303552933722/c63e8306c526497d9dc4bf28490c7b1e/artifacts
+end_time: 1751938084546
+entry_point_name: ''
+experiment_id: '608218303552933722'
+lifecycle_stage: active
+run_id: c63e8306c526497d9dc4bf28490c7b1e
+run_name: sincere-stoat-621
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751938079881
+status: 3
+tags: []
+user_id: runner
