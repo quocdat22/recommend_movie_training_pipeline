@@ -1,0 +1,14 @@
+artifact_uri: file:///home/runner/work/recommend_movie_training_pipeline/recommend_movie_training_pipeline/mlruns/608218303552933722/6b318eba4b0a4a7f8980917a3d46592f/artifacts
+end_time: 1752130006743
+entry_point_name: ''
+experiment_id: '608218303552933722'
+lifecycle_stage: active
+run_id: 6b318eba4b0a4a7f8980917a3d46592f
+run_name: brawny-bee-735
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752130002234
+status: 3
+tags: []
+user_id: runner
